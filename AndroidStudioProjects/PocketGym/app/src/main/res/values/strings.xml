@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PocketGym</string>
+
+    <string name="action_add">add</string>
+    <string name="action_info">Settings</string>
+    <string name="placeholder_title">Start right now!</string>
+    <string name="placeholder_subtitle">Pick exercises for workout and crate yourself a perfect body.</string>
+    <string name="placeholder_button">ADD EXERCISES</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_categories_screen">Categories</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+</resources>

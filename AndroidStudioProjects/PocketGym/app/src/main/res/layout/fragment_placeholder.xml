@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_light_black"
+    tools:context="com.projects.nikita.pocketgym.fragments.PlaceholderFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_day_placeholder"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/placeholderImageView"
+        android:layout_above="@+id/placeholderTextViewTitle"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/placeholder_title"
+        android:textStyle="bold"
+        android:id="@+id/placeholderTextViewTitle"
+        android:textColor="#f5f5ff"
+        android:textSize="24sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/placeholder_subtitle"
+        android:layout_marginTop="34dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/placeholderTextView"
+        android:textColor="#898982"
+        android:textSize="22sp"
+        android:layout_below="@+id/placeholderTextViewTitle"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/placeholder_button"
+        android:id="@+id/placeholderButton"
+        android:onClick="addExercise"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/selector_placeholder"
+        android:layout_below="@+id/placeholderTextView"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
