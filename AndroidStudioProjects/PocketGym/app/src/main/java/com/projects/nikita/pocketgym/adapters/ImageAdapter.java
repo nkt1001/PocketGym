@@ -47,15 +47,15 @@ public class ImageAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        FrameLayout frameLayout;
+        View frameLayout;
 
         if(convertView == null) {
             //получаем элемент для нашего layout и настраиваем
-            frameLayout = (FrameLayout) inflater.inflate(R.layout.main_menu_item,parent,false);
+            frameLayout = inflater.inflate(R.layout.main_menu_item,parent,false);
             frameLayout.setLayoutParams(new GridView.LayoutParams(width / 2, height / 4));
 
         } else {
-            frameLayout = (FrameLayout) convertView;
+            frameLayout = convertView;
         }
         //добавляем строки в textview и imageview
 

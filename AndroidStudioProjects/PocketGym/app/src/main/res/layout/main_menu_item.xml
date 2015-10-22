@@ -9,19 +9,20 @@
         android:layout_height="match_parent"
         android:id="@+id/imageViewMain"
         android:scaleType="centerCrop"/>
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/imageSelector"
         android:background="@drawable/selector"/>
-    <!--android:scaleType="centerCrop"-->
+
     <TextView
         android:id="@+id/textViewMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="TEST"
-        android:textSize="30dp"
+        android:textSize="27sp"
         android:textColor="@android:color/white"/>
 
 
